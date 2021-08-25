@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.buttons{
+	display: inline-block;
+}
+
+.instruction{
+	display:inline-block;
+}
+
+.whole-form{
+	position:absolute;
+	top:15%;
+	width: 100%;
+	text-align:center;
+}
+
+.info-input{
+	margin:3%;
+}
+
+.content-area{
+    resize: none;
+    height: 300px;
+    width: 800px;
+    border-left: hidden;
+    border-right: hidden;
+}
+textarea:focus{
+	outline:none;
+}
+input{
+	border-style:none;
+	font-family: sans-serif;
+    padding: 2px;
+}
+input:focus{
+	outline:none;
+}
+
+h2{
+	font-size:40px;
+	padding-left: 45px;
+	padding-top:15px;
+	text-align:left;
+}
+
+#username{
+	position:absolute;
+	top:10%;
+	right:10%;
+}
+
+.buttons{
+display:inline-block;
+border-radius:3px;
+}
+
+.header{
+	padding: 10px;
+}
