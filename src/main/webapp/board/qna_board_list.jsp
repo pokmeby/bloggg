@@ -96,7 +96,7 @@ display:flex;
             <a class="nav-link active" aria-current="page" href="./BoardList.bo">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./SuggestListAction.me">추천게시판</a>
+            <a class="nav-link" href="./SuggestList.bo">추천게시판</a>
           </li>
           <li class="nav-item">
           <% if(session.getAttribute("id")== null){ %>
